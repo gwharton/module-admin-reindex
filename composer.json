@@ -2,7 +2,9 @@
     "name": "gwharton/module-admin-reindex",
     "type": "magento2-module",
     "require": {
-        "magento/framework": "*"
+        "magento/framework": "*",
+        "magento/module-indexer": "*",
+        "magento/module-backend": "*"
     },
     "config": {
         "sort-packages": true
